@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject private  var userName : User = User()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        VStack{
+            Text("Your Full Name is : \(userName.name)")
+                .padding()
+            TextField("Enter Full Name", text: $userName.name)
+                .padding()
+        }.padding()
     }
 }
 

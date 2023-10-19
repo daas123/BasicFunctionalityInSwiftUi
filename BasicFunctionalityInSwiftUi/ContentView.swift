@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isOn : Bool = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        VStack{
+            Text("This Text will Chnage On Toggle")
+                .foregroundColor(isOn ? .blue : .gray)
+                .bold()
+                .font(.title3)
+            ToggleChildView(isOn: $isOn)
         }
-        .padding()
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92640C972AE12472006AE320 /* ToggleChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92640C962AE12472006AE320 /* ToggleChildView.swift */; };
 		92BE672E2AE0F3F90069AA7B /* BasicFunctionalityInSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE672D2AE0F3F90069AA7B /* BasicFunctionalityInSwiftUiApp.swift */; };
 		92BE67302AE0F3F90069AA7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BE672F2AE0F3F90069AA7B /* ContentView.swift */; };
 		92BE67322AE0F3FB0069AA7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92BE67312AE0F3FB0069AA7B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92640C962AE12472006AE320 /* ToggleChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleChildView.swift; sourceTree = "<group>"; };
 		92BE672A2AE0F3F90069AA7B /* BasicFunctionalityInSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicFunctionalityInSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92BE672D2AE0F3F90069AA7B /* BasicFunctionalityInSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicFunctionalityInSwiftUiApp.swift; sourceTree = "<group>"; };
 		92BE672F2AE0F3F90069AA7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				92BE672D2AE0F3F90069AA7B /* BasicFunctionalityInSwiftUiApp.swift */,
+				92640C962AE12472006AE320 /* ToggleChildView.swift */,
 				92BE672F2AE0F3F90069AA7B /* ContentView.swift */,
 				92BE67312AE0F3FB0069AA7B /* Assets.xcassets */,
 				92BE67332AE0F3FB0069AA7B /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92640C972AE12472006AE320 /* ToggleChildView.swift in Sources */,
 				92BE67302AE0F3F90069AA7B /* ContentView.swift in Sources */,
 				92BE672E2AE0F3F90069AA7B /* BasicFunctionalityInSwiftUiApp.swift in Sources */,
 			);

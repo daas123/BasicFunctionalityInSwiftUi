@@ -11,12 +11,16 @@ struct ContentView: View {
     
     @ObservedObject private  var userName : User = User()
     var body: some View {
-        VStack{
-            Text("Your Full Name is : \(userName.name)")
-                .padding()
-            TextField("Enter Full Name", text: $userName.name)
-                .padding()
-        }.padding()
+        NavigationView {
+            VStack{
+                Text("Your Full Name is : \(userName.name)")
+                    .padding()
+                TextField("Enter Full Name", text: $userName.name)
+                    .padding()
+                NavigationLink("Navigate", destination: SecondCV())
+            }.padding()
+                .navigationTitle("Home")
+        }.environmentObject(userName)
     }
 }
 
